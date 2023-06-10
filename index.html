@@ -30,13 +30,12 @@
             <hr>
             <figure>
                 <blockquote cite="https://mycook.es/recetas">
-                <img src="./image.jpg" alt="photo dish">
-                <figcaption>Bowl</figcaption>
+                <img src="./image.jpg" alt="Bowl" width="400px" height="400px" >
             </blockquote>
             </figure>
             <br>
             <blockquote cite="https://www.adslzone.net/listas">
-            <p style="text-align : justify;"> Esta es otra página especializada en cocina y encontrarás recetas de temporada muy interesantes,
+            <p> Esta es otra página especializada en cocina y encontrarás recetas de temporada muy interesantes,
                 cuidadas y explicadas paso a paso. Otro de los puntos fuertes de la web es que no sólo cuenta
                 con recetas organizadas por temática sino que también encontrarás recopilatorios según fechas o temáticas.
                 Es decir, verás las mejores recetas para hacer con chocolate, los mejores postres de Carnaval o los mejores
@@ -97,7 +96,7 @@
                                 <li>Ponemos a calentar en un cazo abundante agua y una cucharadita de sal.</li>
                                 <li>En lo que hierve, lavamos y cortamos en láminas longitudinales,
                                     de unos tres o cuatro milímetros, el calabacín.</li>
-                                <li>En cuanto empiece a hervir el agua introducimos 
+                                <li>En cuanto empiece a hervir el agua introducimos
                                     las láminas del calabacín durante 1 minuto.</li>
                                 <li>Sacamos sobre papel absorbente.</li>
                                 <li>Echamos el bote de pisto en un cuenco - a nosotros el que más nos
@@ -149,9 +148,9 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td><a href="https://www.eladerezo.com/recetas/lasana-de-verduras-y-atun.html"><img src="./recipe1.jpg"></a></td>
-                        <td><a href="https://www.eladerezo.com/recetas/brownie-de-chocolate.html"><img src="./recipe2.jpg"></a></td>
-                        <td> <a href="https://www.eladerezo.com/recetas/tiramisu-de-rooibos.html"><img src="./recipe3.jpg"></a></td>
+                        <td><a href="https://www.eladerezo.com/recetas/lasana-de-verduras-y-atun.html"><img src="./recipe1.jpg" alt="Lasaña de verduras y atún" width="500px" height="550px" >Recipe1</a></td>
+                        <td><a href="https://www.eladerezo.com/recetas/brownie-de-chocolate.html"><img src="./recipe2.jpg" alt="Brownie de chocolate" width="550px" height="550px">Recipe2</a></td>
+                        <td><a href="https://www.eladerezo.com/recetas/tiramisu-de-rooibos.html"><img src="./recipe3.jpg" alt="Tiramisú de rooibos">Recipe3</a></td>
                     </tr>
                 </tfoot>
             </table>
@@ -162,7 +161,7 @@
         <section id="aboutUs">
             <h4>About Us</h4>
             <blockquote cite="https://www.eladerezo.com">
-            <p style="text-align : justify;">Este proyecto inicio como la forma de plasmar la afición al mundo de la gastronomía de Jesús Miguel García Martín (Iscariote),
+            <p>Este proyecto inicio como la forma de plasmar la afición al mundo de la gastronomía de Jesús Miguel García Martín (Iscariote),
                 y la informática de Antonio Moreno Pérez. (ministrillo).
                 Un pequeño blog en WordPress fue el germen de lo que se ha convertido eladerezo.com, una WEB con miles de Post
                 y con cientos de miles de visitantes únicos todos lo meses.
@@ -176,7 +175,7 @@
         <address>
             <strong>My address is:</strong>
             <!-- contenedor en linea -->
-            <span>Some Street 123</span> 
+            <span>Some Street 123</span>
             <span>12345 Some City, Country</span>
         </address>
         <br>
@@ -184,25 +183,26 @@
         </section>
         <br>
         <hr>
-        <section id="contactForm">
+        <section id="contact">
             <h5>Contact Us</h5>
             <form>
-                    <fieldset>
+                <fieldset>
+                    <legend>
                         <label for="name">Name:</label>
                         <input type="text" name="name" placeholder="name" maxlength="10">
-                        <hr>
+                        <br>
                         <label for="lastName">Last Name:</label>
                         <input type="text" name="lastName" placeholder="lastName" maxlength="10">
-                        <hr>
+                        <br>
                         <label for="gender">Gender:</label>
                         <input type="radio" value="male" name="gender">
                         <label for="gender">Male</label>
                         <input type="radio" value="female" name="gender">
                         <label for="gender">Female</label>
-                        <hr>
+                        <br>
                         <label for="email">Email</label>
                         <input type="email" name="email" placeholder="email" required>
-                        <hr>
+                        <br>
                         <label for="country">Country</label>
                         <select name="country">
                             <option value="1">Spain</option>
@@ -215,10 +215,10 @@
                         </select>
                         <label for="zipcode">Zip Code</label>
                         <input type="text" name="zipcode" placeholder="zipcode" pattern="[0-9]{10}">
-                        <hr>
+                        <br>
                         <label for="age">Age</label>
                         <input type="number" name="age" placeholder="age" min="18" max="90" required>
-                        <hr>
+                        <br>
                         <label for="description">Comments</label>
                         <textarea name="Comments" cols="30" rows="5" placeholder="comments"></textarea>
                         <br>
@@ -230,12 +230,13 @@
                         <br>
                         <button type="submit">Send</button>
                         <br>
-                        <hr>
                         <a href="index.html" class="return">Return Home</a>
+                    </legend>
                     </fieldset>
-        <br>
+            </form>
         <section>
             <h6>Copyright  2023 myrecipes, all rights reserved</h6>
         </section>
+        </section>
     </body>
-</html>
+    </html>
